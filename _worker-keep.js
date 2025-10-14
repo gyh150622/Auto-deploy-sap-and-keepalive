@@ -1,15 +1,17 @@
 // 环境变量配置(必填)
-let email = "你的sap登录邮箱";      // SAP登录邮箱,直接填写或设置环境变量，变量名：EMAIL
-let password = "你的sap登录密码";   // SAP登录密码,直接填写或设置环境变量，变量名：PASSWORD
+let email = "20150622cc@gmail.com";      // SAP登录邮箱,直接填写或设置环境变量，变量名：EMAIL
+let password = "20150622Gyh.";   // SAP登录密码,直接填写或设置环境变量，变量名：PASSWORD
 
 // 离线重启通知 Telegram配置(可选)
-let CHAT_ID = "";    // Telegram聊天CHAT_ID,直接填写或设置环境变量，变量名：CHAT_ID
-let BOT_TOKEN = "";  // Telegram机器人TOKEN,直接填写或设置环境变量，变量名：BOT_TOKEN
+let CHAT_ID = "-1002322641355";    // Telegram聊天CHAT_ID,直接填写或设置环境变量，变量名：CHAT_ID
+let BOT_TOKEN = "7916864995:AAF_os8j1s-TDIErBEm2qHWvlpExDgP8gjI";  // Telegram机器人TOKEN,直接填写或设置环境变量，变量名：BOT_TOKEN
 
 // 应用配置 URL和应用名称配置(必填)
 const MONITORED_APPS = [ // 格式: {url: "应用URL", name: "应用名称"}
-  {url: "https://xxxxx.cfapps.ap21.hana.ondemand.com", name: "xxxxx"},  
-  {url: "https://xxxxx.cfapps.us10-001.hana.ondemand.com", name: "xxxxx"}
+  {url: "https://free-useoyogh.cfapps.us10-001.hana.ondemand.com", name: "free-useoyogh"},
+   {url: "https://moontv-freeuspdphhp.cfapps.us10-001.hana.ondemand.com", name: "moontv-freeuspdphhp"},
+   {url: "https://az-sgqheufn.cfapps.ap21.hana.ondemand.com", name: "az-sgqheufn"},  
+  {url: "https://ubuntu-azsgtyhmbf.cfapps.ap21.hana.ondemand.com", name: "ubuntu-azsgtyhmbf"}
 ];
 
 // 区域固定常量(无需更改)
